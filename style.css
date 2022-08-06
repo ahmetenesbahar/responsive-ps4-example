@@ -44,7 +44,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: #000;
+    color: black;
     font-size: 14px;
 }
 nav ul li hover{
@@ -207,9 +207,9 @@ button:hover{
     .col-1 h3{
         font-size: 35px;
     }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
 }
 
-#menuList{
-    overflow: hidden;
-    transition: 0.5s;
-}
